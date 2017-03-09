@@ -6,7 +6,7 @@ import userActions from '../../actions/user';
 import Header from '../view/header';
 
 export default function Layout ({children}) {
-	const state = store.getState().userReduser;
+	const state = store.getState();
 	console.log(state)
 
 	return (

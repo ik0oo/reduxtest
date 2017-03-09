@@ -49,7 +49,7 @@ class FormContainer extends React.Component {
 
 export default connect(
 	store => ({
-		activeUser: store.userReduser.activeUser,
-		mainWallet: store.userReduser.mainWallet
+		activeUser: store.activeUser,
+		mainWallet: store.mainWallet
 	})
 )(FormContainer);
